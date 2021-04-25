@@ -19,7 +19,8 @@ npm start
 - Upload Images and text in public and private channels
 - Customise Avatar
 - Notification feature
-- Star a channel and add to the list.
-- Color Picker feature to customise the appearence of the console.
+- Star a channel and add to the list
+- Color Picker feature to customise the appearence of the console
+- Online Appearence of the user
 - Typing and Loading Animation
 - Emoji Picker Feature
