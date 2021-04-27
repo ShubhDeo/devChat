@@ -4,16 +4,16 @@ import 'firebase/database'
 import 'firebase/storage'
 
 var firebaseConfig = {
-    apiKey: "AIzaSyCc_f7dkn4rNnHlnaZH1m7me_VPSZ_5bSw",
-    authDomain: "dev-community-5d89a.firebaseapp.com",
-    projectId: "dev-community-5d89a",
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH,
+    projectId: process.env.REACT_APP_PROJECT,
     storageBucket: "dev-community-5d89a.appspot.com",
-    messagingSenderId: "465412900248",
-    appId: "1:465412900248:web:9ce032141e76c78ff7d7ed",
+    messagingSenderId: process.env.REACT_APP_MESSAGE_ID,
+    appId: process.env.REACT_APP_APP_ID,
     measurementId: "G-M62YBDQKEZ"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
-export default firebase;  
+export default firebase;
